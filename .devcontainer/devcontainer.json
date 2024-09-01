@@ -1,0 +1,7 @@
+{
+    "name": "Python Project",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [5000],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "extensions": ["ms-python.python"]
+}
